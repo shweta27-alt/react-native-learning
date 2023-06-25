@@ -12,37 +12,6 @@ export default function App() {
       <ScrollView>
       <SafeAreaView>
       <Home/>
-      <Image source={{uri:"https://en.wikipedia.org/wiki/Blue-and-yellow_macaw#/media/File:Blue-and-Yellow-Macaw.jpg"}} style={{width:100, height:100,backgroundColor:"red"}}/>
-      <TextInput style={{backgroundColor:"blue"}}/>
-      <Button title="Click me" onPress={showToast} color="pink"/>
-      <Button title="Click me" onPress={showToast} color="black"/>
-      <Button title="Click me" onPress={showToast} color="red"/>
-      <Button title="Click me" onPress={showToast} color="yellow"/>
-      <Button title="Click me" onPress={showToast} color="pink"/>
-      <Button title="Click me" onPress={showToast} color="black"/>
-      <Button title="Click me" onPress={showToast} color="red"/>
-      <Button title="Click me" onPress={showToast} color="yellow"/>
-      <Button title="Click me" onPress={showToast} color="pink"/>
-      <Button title="Click me" onPress={showToast} color="black"/>
-      <Button title="Click me" onPress={showToast} color="red"/>
-      <Button title="Click me" onPress={showToast} color="yellow"/>
-      <Button title="Click me" onPress={showToast} color="pink"/>
-      <Button title="Click me" onPress={showToast} color="black"/>
-      <Button title="Click me" onPress={showToast} color="pink"/>
-      <Button title="Click me" onPress={showToast} color="black"/>
-      <Button title="Click me" onPress={showToast} color="red"/>
-      <Button title="Click me" onPress={showToast} color="yellow"/>
-      <Button title="Click me" onPress={showToast} color="pink"/>
-      <Button title="Click me" onPress={showToast} color="black"/>
-      <Button title="Click me" onPress={showToast} color="red"/>
-      <Button title="Click me" onPress={showToast} color="yellow"/>
-      <Button title="Click me" onPress={showToast} color="red"/>
-      <Button title="Click me" onPress={showToast} color="yellow"/>
-      <Button title="Click me" onPress={showToast} color="pink"/>
-      <Button title="Click me" onPress={showToast} color="black"/>
-      <Button title="Click me" onPress={showToast} color="red"/>
-      <Button title="Click me" onPress={showToast} color="yellow"/>
-      <Switch value={active} onChange={()=>{setActive( (prev)=> !prev)}}/>
       </SafeAreaView>
       </ScrollView>
     </View>
